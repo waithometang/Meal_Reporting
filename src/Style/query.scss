@@ -1,0 +1,190 @@
+.main {
+  width: 100%;
+  padding-bottom: 110px;
+  background: #f2f2f2;
+  position: relative;
+  max-height: 92vh;
+  width: 100%;
+  .top {
+    width: 100%;
+    height: 219px;
+    background: rgba(43, 133, 229, 1);
+    display: flex;
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    .hread-img {
+      margin-top: 24px;
+      margin-left: 24px;
+      width: 140px;
+      height: 140px;
+      flex: 0 0 188px;
+      .portrait-img {
+        width: 140px;
+        height: 140px;
+        background: rgba(255, 240, 240, 1);
+        border: 2px solid rgba(255, 255, 255, 1);
+        border-radius: 50%;
+      }
+      .editor-img {
+        width: 36px;
+        height: 36px;
+        background: rgba(0, 0, 0, 1);
+        opacity: 0.5;
+        border-radius: 50%;
+        margin-left: -47px;
+      }
+    }
+    .hread-font {
+      flex: 1;
+      margin-left: 24px;
+      .name-font {
+        margin: 0px;
+        margin-top: 58px;
+        font-size: 36px;
+        font-family: PingFang-SC-Bold;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 1);
+      }
+      .time-font {
+        font-size: 28px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        margin: 30px 0 0 0;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+    .setting {
+      font-size: 28px;
+      font-family: PingFang-SC-Medium;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+      position: absolute;
+      right: 24px;
+      top: 24px;
+      img {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+  .title {
+    height: 140px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    text-align: center;
+    div {
+      width: 45%;
+      height: 140px;
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+    span {
+      font-family: MicrosoftYaHei-Bold;
+      font-weight: bold;
+      font-size: 28px;
+      margin: 27px 0 0 0;
+      display: -webkit-inline-box;
+      color: rgba(255, 255, 255, 1);
+    }
+    p {
+      font-size: 24px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+      margin: 24px 0 0 0;
+    }
+    .title-left {
+      background: url(~@/imgaes/bg_01.png);
+      background-size: 100% 100%;
+    }
+    .title-right {
+      background: url(~@/imgaes/bg_02.png);
+      background-size: 100% 100%;
+    }
+  }
+  .pages {
+    width: 94%;
+    background: rgba(255, 255, 255, 1);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    .title-font {
+      padding-left: 24px;
+      margin-top: 24px;
+      font-size: 28px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(51, 51, 51, 1);
+      div {
+        width: 6px;
+        height: 26px;
+        background: rgba(43, 133, 229, 1);
+        border-radius: 2px;
+        margin-right: 24px;
+        display: -webkit-inline-box;
+      }
+    }
+    .item {
+      margin-top: 20px;
+      .main-ul {
+        padding-top: 28px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid;
+        border-color: rgba(242, 242, 242, 1);
+        .main-li {
+          display: list-item;
+          margin-left: 54px;
+          list-style: url("~@/imgaes/img_02.png");
+          margin-top: 28px;
+          .monay-font {
+            float: right;
+            margin-top: -94px;
+            font-size: 32px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(255, 153, 51, 1);
+            margin-right: 24px;
+          }
+          .title-font {
+            font-size: 28px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            padding: 0px;
+            margin: 0px;
+          }
+          .time-font {
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 16px;
+            }
+            font-size: 24px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            margin: 35px 0 0 0;
+            padding: 0;
+          }
+        }
+      }
+    }
+    .onclick {
+      width: 100%;
+      padding-bottom: 20px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 24px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(153, 153, 153, 1);
+    }
+  }
+}

@@ -1,0 +1,156 @@
+.main {
+  margin: 0px;
+  padding: 0px;
+  position: static;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  background: url("~@/imgaes/bg.jpg");
+  background-size: 100% 100%;
+  input {
+    outline: none;
+  }
+  overflow: hidden;
+  .top {
+    position: relative;
+    top: 135px;
+    width: 603px;
+    margin-left: 72px;
+    height: 120px;
+    background: url("~@/imgaes/login-title.png");
+    background-size: 100% 100%;
+  }
+  .fot {
+    background: url("~@/imgaes/login-fot.png");
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+    position: static;
+    margin-top: 28px;
+    bottom: 0px;
+    width: 750px;
+    height: 445px;
+  }
+  input::-webkit-input-placeholder {
+    color: #999999;
+  }
+  input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999999;
+  }
+  input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999999;
+  }
+  input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #999999;
+  }
+  .pages {
+    width: 604px;
+    height: 680px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    position: relative;
+    top: 150px;
+    margin-left: 73px;
+    margin-top: 90px;
+    display: table;
+    .user {
+      width: 525px;
+      height: 99px;
+      border: 1px solid rgba(153, 153, 153, 1);
+      border-radius: 49px;
+      margin-left: 40px;
+      margin-top: 98px;
+      text-align: center;
+      line-height: 115px;
+      img {
+        width: 33px;
+        height: 34px;
+      }
+      input {
+        margin-left: 26px;
+        width: 321px;
+        height: 40px;
+        margin-bottom: 15px;
+        position: relative;
+        top: -5px;
+        border: none;
+        font-size: 32px;
+        font-family: PingFang-SC-Regular;
+        font-weight: 400;
+      }
+    }
+    .password {
+      width: 525px;
+      height: 99px;
+      border: 1px solid rgba(153, 153, 153, 1);
+      border-radius: 49px;
+      margin-left: 40px;
+      margin-top: 36px;
+      line-height: 115px;
+      img {
+        width: 33px;
+        height: 34px;
+        margin-left: 42px;
+      }
+      input {
+        margin-left: 26px;
+        height: 40px;
+        width: 321px;
+        margin-bottom: 15px;
+        position: relative;
+        top: -5px;
+        border: none;
+        font-size: 32px;
+        font-family: PingFang-SC-Regular;
+        font-weight: 400;
+      }
+    }
+    .font {
+      width: 525px;
+      margin-left: 40px;
+      margin-top: 50px;
+      overflow: hidden;
+      zoom: 1;
+      .forget {
+        float: left;
+        color: rgba(153, 153, 153, 1);
+      }
+      .register {
+        float: right;
+        color: #87b8fd;
+      }
+    }
+    .but {
+      width: 525px;
+      margin-left: 40px;
+      height: 98px;
+      background: linear-gradient(
+        90deg,
+        rgba(48, 203, 255, 1),
+        rgba(16, 154, 252, 1)
+      );
+      border-radius: 49px;
+      margin-top: 50px;
+      font-size: 36px;
+      font-family: PingFang-SC-Regular;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+      text-align: center;
+      line-height: 98px;
+      letter-spacing: 20px;
+    }
+    .cor {
+      background: #0081dc;
+    }
+  }
+  .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

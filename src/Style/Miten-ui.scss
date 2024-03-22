@@ -1,0 +1,37 @@
+.mint-toast {
+  z-index: 22222;
+  .mint-toast-text{
+    font-size: 36px;
+  }
+}
+.mint-msgbox-wrapper {
+  z-index: 999999999 !important;
+}
+.mint-msgbox-wrapper .mint-msgbox {
+ height: auto !important;
+}
+.mint-msgbox-wrapper .mint-msgbox .mint-msgbox-header {
+padding: 0 !important;
+}
+.mint-msgbox-wrapper .mint-msgbox .mint-msgbox-header .mint-msgbox-title {
+height: auto;
+padding: 0.268777rem 0;
+font-size: 0.333rem
+}
+.mint-msgbox-content {
+ padding-top: 0px;
+ padding-bottom: 0.268777rem;
+}
+.mint-msgbox-wrapper .mint-msgbox .mint-msgbox-content .mint-msgbox-message {
+height: auto;
+padding: 0.1rem 0;
+font-size: 0.4rem
+}
+.mint-msgbox-btns {
+height: auto;
+}
+.mint-msgbox-btn  {
+height: auto;
+padding: 0.3rem 0;
+font-size: 0.399rem
+}

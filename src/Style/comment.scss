@@ -1,0 +1,122 @@
+.comment {
+  position: relative;
+  min-height: 100vh;
+  background: #f2f2f2;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  textarea::-webkit-textarea-placeholder {
+    color: rgba(204, 204, 204, 1);
+  }
+  textarea::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgba(204, 204, 204, 1);
+  }
+  textarea:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgba(204, 204, 204, 1);
+  }
+  textarea:-ms-textarea-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(204, 204, 204, 1);
+  }
+  .top {
+    img {
+      width: 20px;
+      height: 35px;
+      float: left;
+      margin-top: 30px;
+      margin-left: 22px;
+    }
+    width: 100%;
+    height: 95px;
+    text-align: center;
+    line-height: 95px;
+    background: rgba(43, 133, 228, 1);
+    color: #ffffff;
+    font-size: 36px;
+  }
+  .min-icon {
+    height: 30px;
+    width: 100%;
+    margin-left: 24px;
+    margin-top: 23px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    .icon {
+      float: left;
+      height: 30px;
+      width: 33px;
+      img {
+        height: 24px;
+        width: 24px;
+        margin: 5px 9px 0 1px;
+      }
+    }
+  }
+  .grade {
+    widows: 702px;
+    margin: 27px 24px 16px 24px;
+    background: #ffffff;
+    .content {
+      height: 140px;
+      display: flex;
+      .subject {
+        float: left;
+        width: 152px;
+        height: 34px;
+        margin: 53px 0;
+        font-size: 28px;
+        color: #333333;
+        line-height: 34px;
+        text-align: right;
+      }
+      .rater-icon {
+        height: 50px;
+        width: 372px;
+        margin: 45px 0 45px 24px;
+      }
+      .result {
+        height: 34px;
+        width: 130px;
+        margin-right: 24px;
+        margin-top: 53px;
+        font-size: 28px;
+        color: #ff9966;
+        text-align: right;
+        line-height: 34px;
+      }
+    }
+  }
+  .text-comment {
+    width: 94%;
+    height: 200px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    textarea {
+      height: 100%;
+      width: 100%;
+      border: none;
+      margin: 0px;
+      padding: 0px;
+      font-size: 28px;
+      text-align: left;
+      color: #333333;
+    }
+  }
+  .submit {
+    width: 94%;
+    height: 88px;
+    margin: 33px 24px 33px 24px;
+    background: rgba(43, 133, 229, 1);
+    border-radius: 10px;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 88px;
+  }
+}

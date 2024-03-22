@@ -1,0 +1,108 @@
+.TakeFoodDetails {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  .head {
+    height: 90px;
+    background: #2b85e5;
+    display: flex;
+    .icon {
+      width: 42px;
+      height: 90px;
+      img {
+        height: 35px;
+        width: 20px;
+        margin-left: 20px;
+        margin-bottom: 26px;
+        margin-top: 29px;
+      }
+    }
+    .title {
+      margin-left: 261px;
+      text-align: left;
+      line-height: 90px;
+      font-size: 36px;
+      font-size: 36px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  .content {
+    .picture {
+      width: 186px;
+      height: 171px;
+      margin: 123px 282px 51px 282px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .tips {
+      .Success {
+        width: 260px;
+        height: 38px;
+        margin: 0 263px;
+        font-size: 40px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 38px;
+      }
+      .stateTips {
+        width: 431px;
+        height: 28px;
+        margin: 46px 160px 0 160px;
+        font-size: 28px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(153, 153, 153, 1);
+        line-height: 24px;
+      }
+    }
+    .button {
+      margin-top: 138px;
+      height: 78px;
+      display: flex;
+      .see {
+        width: 240px;
+        height: 78px;
+        margin-left: 77px;
+        border: 2px solid rgba(153, 153, 153, 1);
+        border-radius: 5px;
+        font-size: 28px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 78px;
+        text-align: center;
+      }
+      .return {
+        width: 240px;
+        height: 78px;
+        margin-left: 117px;
+        border: 2px solid rgba(153, 153, 153, 1);
+        border-radius: 5px;
+        font-size: 28px;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 78px;
+        text-align: center;
+      }
+    }
+    .button-fail {
+      width: 320px;
+      height: 80px;
+      margin: 138px 209px 0 221px;
+      border: 1px solid rgba(43, 133, 229, 1);
+      border-radius: 4px;
+      text-align: center;
+      line-height: 80px;
+      font-size: 32px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(43, 133, 229, 1);
+    }
+  }
+}

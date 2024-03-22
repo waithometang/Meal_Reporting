@@ -1,0 +1,190 @@
+.Unclaimed {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow-x: hidden;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  .GMBC_backtrackTitle {
+    display: flex;
+    background: #2b85e4;
+    .GMBC_backtrack {
+      height: 88px;
+      width: 64px;
+      img {
+        height: 35px;
+        width: 20px;
+        margin: 27px 24px;
+      }
+    }
+    .GMBC_title {
+      top: 0px;
+      width: 686px;
+      font-size: 36px;
+      line-height: 89px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .top {
+    height: 250px;
+    width: 750px;
+    background: #2b85e4;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+  }
+  .pages {
+    width: 710px;
+    .tag {
+      width: 710px;
+      font-size: 30px;
+      padding: 0 20px 0 20px;
+      margin-bottom: 20px;
+      background: #ffffff;
+      div {
+        width: 345px;
+        height: 80px;
+        // text-align: center;
+        // line-height: 80px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      p {
+        border-bottom: 5px solid #2b85e4;
+        width: 345px;
+        margin: 0;
+        transition: margin-left 0.5s;
+        -moz-transition: margin-left 0.5s; /* Firefox 4 */
+        -webkit-transition: margin-left 0.5s; /* Safari 和 Chrome */
+        -o-transition: margin-left 0.5s; /* Opera */
+      }
+      .marginleft {
+        margin-left: 345px;
+      }
+    }
+    .item {
+      position: absolute;
+      padding: 0 20px 0 20px;
+      top: 444px;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      .list {
+        height: 170px;
+        width: 643px;
+        background: #ffffff;
+        border-left: 7px solid #2b85e4;
+        border-radius: 5px;
+        font-size: 28px;
+        color: #999999;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 10px 0 0 40px;
+        img {
+          height: 35px;
+          margin-right: 20px;
+        }
+        .name {
+          height: 40px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 40px;
+          width: 400px;
+        }
+        .Pages {
+          display: flex;
+          width: 460px;
+          line-height: 40px;
+          // align-items: center;
+        }
+        .right-main {
+          display: flex;
+          align-items: center;
+          width: 183px; 
+          justify-content: center;
+          .but {
+            padding: 10px 50px 10px 50px;
+            background: #2b85e4;
+            color: #ffffff;
+            border-radius: 40px;
+          }
+        }
+      }
+      .bot {
+        margin-bottom: 10px;
+      }
+      .notShara {
+        height: auto;
+        padding-top: 20px;
+        width: 750px;
+        text-align: center;
+        font-size: 38px;
+        color: rgb(170, 170, 170);
+      }
+    }
+      .xleft-enter-active,
+        .fade-leave-active {
+          transition: all 1s;
+        }
+        .xleft-enter, .fade-leave-to {
+          margin-left: 750px;
+        }
+        .xright-enter-active,
+        .fade-leave-active {
+          transition: all 1s;
+        }
+        .xright-enter, .fade-leave-to {
+          margin-left: -750px;
+        }
+  }
+
+  .alert {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba($color: black, $alpha: 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      text-align: center;
+      .img-mian {
+        width: 600px;
+        height: 700px;
+        background: #ffffff;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        img {
+          width: 400px;
+          margin-top: 20px;
+        }
+        p {
+          font-size: 35px;
+          font-weight: 600;
+          color: orange;
+          margin-top: 40px;
+        }
+      }
+      .close {
+        margin-left: auto;
+        display: inline-block;
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+}

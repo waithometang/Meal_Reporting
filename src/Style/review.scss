@@ -1,0 +1,99 @@
+.main {
+  // margin: 0px;
+  // overflow-y: scroll;
+  // overflow-x: hidden;
+  // width: 100%;
+  // padding: 0px;
+  padding-top: 176px;
+  .mains{
+    margin: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0px;
+  .pages {
+    top: 183px;
+    bottom: 98px;
+    width: 100%;
+    background: rgba(242, 242, 242, 1);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .item {
+      margin-top: 36px;
+      margin-left: 24px;
+      .main-ul {
+        width: 98%;
+        height: 136px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        margin-bottom: 25px;
+        .main-li {
+          margin-left: 24px;
+          margin-right: 24px;
+          height: 136px;
+          display: flex;
+          align-items: center;
+          .bor-red {
+            width: 6px;
+            height: 64px;
+            background: rgba(255, 51, 51, 1);
+            border-radius: 2px;
+          }
+          .bor-blue {
+            width: 6px;
+            height: 64px;
+            border-radius: 2px;
+            background: rgba(51, 204, 255, 1);
+          }
+          .bor-green {
+            width: 6px;
+            height: 64px;
+            border-radius: 2px;
+            background: rgba(0, 204, 0, 1);
+          }
+          .font {
+            margin-left: 20px;
+            .title-font {
+              font-size: 28px;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(51, 51, 51, 1);
+            }
+            .time-font {
+              font-size: 24px;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              margin: 0;
+              color: rgba(153, 153, 153, 1);
+            }
+          }
+          .right-font {
+            height: 64px;
+            font-size: 28px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(51, 204, 51, 1);
+            line-height: 64px;
+            flex: 1;
+            text-align: right;
+          }
+          .noreview {
+            color: rgba(204, 204, 204, 1);
+          }
+        }
+      }
+    }
+  }
+  .notData {
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: #cccccccc;
+    }
+  }
+}
+.ismboa_main {
+  padding-top: 88px;
+}

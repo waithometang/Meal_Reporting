@@ -1,0 +1,217 @@
+.main_mian {
+  .hread {
+    .top {
+      width: 100%;
+      height: 96px;
+      text-align: center;
+      background: rgba(43, 133, 228, 1);
+      color: #ffffff;
+      font-size: 36px;
+      display: flex;
+      img {
+        width: 20px;
+        height: 35px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 22px;
+      }
+      .herad_title {
+        width: 708px;
+        span {
+          display: inline-block;
+          height: 48px;
+          padding: 24px 0;
+        }
+      }
+    }
+  }
+  .item {
+    position: absolute;
+    top: 95px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    background: #f2f2f2;
+    .main-ul {
+      width: 94%;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 25px 0;
+      border-radius: 10px;
+      -webkit-transform: translateZ(0);
+      -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+      background: rgba(255, 255, 255, 1);
+      margin-bottom: 15px;
+      .main-li {
+        display: list-item;
+        margin-left: 54px;
+        list-style: url("~@/imgaes/img_02.png");
+        .monay-font {
+          float: right;
+          margin-top: -94px;
+          font-size: 32px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(255, 153, 51, 1);
+          margin-right: 24px;
+        }
+        .title-font {
+          font-size: 28px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+          padding: 0px;
+          margin: 0px;
+        }
+        .time-font {
+          img {
+            width: 22px;
+            height: 22px;
+            margin-right: 16px;
+          }
+          font-size: 24px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          margin: 35px 0 0 0;
+          padding: 0;
+        }
+        .menay_name {
+          font-size: 28px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+          display: flex;
+          .item_count {
+            width: auto;
+          }
+          .item_fee{
+            width: auto;
+            display: flex;
+            margin-left: auto;
+            margin-right: 25px;
+            .item_fee_icon {
+              height: 28px;
+              width: 28px;
+              padding: 5px;
+              margin-right: 20px;
+              img{
+                height: 28px;
+                width: 28px;
+              }
+            }
+          }
+        }
+        .pay_time {
+          height: auto;
+          padding-top: 18px;
+          display: flex;
+          font-size: 28px;
+          font-family: MicrosoftYaHei;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+          align-items: center;
+          .pay_time_icon{
+            height: 30px;
+            width: 30px;
+            margin-right: 20px;
+            img{
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .content_list {
+      height: auto;
+      width: 706px;
+      background: #ffffff;
+      margin: 0 auto;
+      margin-top: 20px;
+      border-radius: 10px;
+      -webkit-transform: translateZ(0);
+      -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+      .icon_menay {
+        height: auto;
+        width: 100%;
+        display: flex;
+        .icon_name {
+          display: flex;
+          height: auto;
+          .min_icon {
+            height: 18px;
+            width: 18px;
+            margin: auto 20px;
+            display: flex;
+            img{
+              width: 18px;
+              height: 18px;
+            }
+          }
+          .name {
+            height: auto;
+            font-size: 32px;
+            color: #666666;
+            text-align: left;
+            span{
+              display: inline-block;
+              height: auto;
+              padding: 8px 0;
+            }
+          }
+        }
+        .menay{
+          width: 180px;
+          margin-left: auto;
+          margin-right: 20px;
+          font-size: 30px;
+          text-align: right;
+          color: coral;
+          span {
+            display: inline-block;
+            height: auto;
+            padding: 9px;
+          }
+        }
+      }
+      .content {
+        height: auto;
+        .content_icon {
+          margin:0 38px;
+          display: flex;
+          .content_icon_min{
+            height: 40px;
+            width: 40px;
+            padding: 10px 0;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .content_icon_title {
+            margin-left: 20px;
+            font-size: 30px;
+            color: #666666;
+            width: 100%;
+            span{
+              display: inline-block;
+              height: 40px;
+              width: 100%;
+              padding: 10px 0;
+            }
+          }
+        }
+      }
+    }
+    .nodeData {
+      font-size: 30px;
+      color:black;
+      width: 100%;
+      height: auto;
+      padding: 40px 0;
+      text-align: center;
+    }
+  }
+}

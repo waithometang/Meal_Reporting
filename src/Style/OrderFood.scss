@@ -1,0 +1,313 @@
+.OrderFood {
+  // overflow: hidden;
+  // padding-bottom: 98px;
+  // width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 98px;
+  padding-top: 176px;
+  overflow: scroll;
+  background: #f2f2f2;
+  .FoodList {
+    .SelectDate {
+      height: 88px;
+      background: #ffffff;
+      display: flex;
+      .LastWeek {
+        width: 33%;
+        height: 88px;
+        display: flex;
+        outline: none;
+        .icon {
+          float: left;
+          height: 88px;
+          width: 78px;
+          img {
+            width: 30px;
+            height: 17px;
+            margin: 36px 24px 35px 24px;
+          }
+        }
+        .text {
+          height: 88px;
+          width: 100%;
+          text-align: left;
+          line-height: 88px;
+          font-size: 30px;
+          color: #666666;
+        }
+        .action-text {
+          color: #33cc33;
+        }
+      }
+      .actionLastWeek {
+        background: #cccccc;
+      }
+      .ThisWeek {
+        width: 33%;
+        height: 88px;
+        text-align: center;
+        line-height: 88px;
+        font-size: 30px;
+        color: #666666;
+      }
+      .NextWeek {
+        width: 33%;
+        height: 88px;
+        display: flex;
+        .texts {
+          float: left;
+          height: 88px;
+          width: 100%;
+          text-align: right;
+          line-height: 88px;
+          font-size: 30px;
+          color: #666666;
+          margin: 0 24px 0 40px;
+        }
+        .action-text {
+          color: #33cc33;
+        }
+        .icons {
+          height: 88px;
+          width: 78px;
+          img {
+            width: 30px;
+            height: 17px;
+            margin: 36px 0 35px 0;
+          }
+        }
+      }
+      .action-week {
+        color: #33cc33;
+      }
+    }
+    .content {
+      margin-top: 20px;
+      overflow-y: scroll;
+      .WeekMeals {
+        height: 110px;
+        width: 100%;
+        float: left;
+        background: #ffffff;
+        border-bottom: 1px solid #f2f2f2;
+        display: flex;
+        .week {
+          height: 110px;
+          width: 25%;
+          display: flex;
+          .min-icon {
+            width: 6px;
+            height: 71px;
+            margin: 19px 0;
+            background: rgba(43, 133, 228, 1);
+            border-radius: 1px;
+          }
+          .StaleDated-min-icon {
+            background: #634e4e;
+          }
+          .names {
+            width: 100%;
+            height: 110px;
+            text-align: center;
+            font-size: 28px;
+            color: #444444;
+            .title {
+              height: 55px;
+              line-height: 75px;
+            }
+            .time {
+              height: 55px;
+              line-height: 55px;
+            }
+          }
+          .overdue-name {
+            background: #F4F4F4;
+          }
+        }
+        .meals {
+          width: 100%;
+          ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            li {
+              float: left;
+              height: 110px;
+              width: 33%;
+              // width: 186px;
+              text-align: center;
+              font-size: 30px;
+              .title {
+                height: 55px;
+                line-height: 55px;
+                color: #2b85e4;
+              }
+              .Centered_title { // 顶部距离
+                margin-top: 25px;
+              }
+              .actiontitle {
+                height: 55px;
+                line-height: 55px;
+                margin: 0;
+                color: #2b85e4;
+              }
+              .time {
+                height: 55px;
+                line-height: 35px;
+                color: #a1d0ff;
+              }
+              .StaleDated-color {
+                color: #999999 ;
+              }
+              .acton-color {
+                color: #33cc33;
+              }
+              .notpayment {
+                color: #ff9b00;
+              }
+            }
+            .action-li {
+              background: #33cc33;
+            }
+            .overdue-li {
+              background: #F4F4F4;
+            }
+          }
+        }
+      }
+      .StaleDated {
+        background: #f8f8f8;
+      }
+    }
+    .list-conetnt{
+      display: flex;
+      // display: -webkit-box;
+      // display: -ms-flexbox;
+      align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      background: #ffffff;
+      border-bottom: 1px solid #cccccc;
+      .week{
+        width: 120px;
+        display: flex;
+        // display: -webkit-box;
+        // display: -ms-flexbox;
+        align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        flex: 0 0 120px;
+        overflow: hidden;
+        .week-icon{
+          width: 6px;
+          height: 71px;
+          background: rgba(43, 133, 228, 1);
+          border-radius: 1px;
+          flex:0 0 6px;
+        }
+        .week-content {
+          flex: 1;
+          display: flex;
+          // display: -webkit-box;
+          // display: -ms-flexbox;
+          align-items: center;
+          // -webkit-box-align: center;
+          // -ms-flex-align: center;
+          flex-direction:column;
+          // -webkit-box-orient: vertical;
+          // -webkit-box-direction: normal;
+          // -ms-flex-direction: column;
+          justify-content:center;
+          padding: 10px 0;
+          .content-top{
+            font-size: 30px;
+            color:rgba(68,68,68,1);
+          }
+          .content-bottom{
+            margin-top: 10px;
+            font-size: 28px;
+            color:rgba(102,102,102,1);
+          }
+        }
+      }
+      .mea {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        // display: -webkit-box;
+        // display: -ms-flexbox;
+        align-items: center;
+        // -webkit-box-align: center;
+        // -ms-flex-align: center;
+        .mea-li {
+          flex: 1;
+          width: 210px;
+          display: flex;
+          // display: -webkit-box;
+          // display: -ms-flexbox;
+          align-items: center;
+          // -webkit-box-align: center;
+          // -ms-flex-align: center;
+          flex-direction:column;
+          // -webkit-box-orient: vertical;
+          // -webkit-box-direction: normal;
+          // -ms-flex-direction: column;
+          justify-content:center;
+          .mea-li-top{
+            width: 100%;
+            font-size: 32px;
+            text-align: center;
+            color: #2b85e4;
+          }
+          .mea-li-bottom{
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            color:rgba(102,102,102,1);
+          }
+          .StaleDated-color {
+            color: #999999 ;
+          }
+          .notpayment {
+            color: #ff9b00;
+          }
+          .acton-color {
+            color: #33cc33;
+          }
+        }
+        .mea-li:active{
+          background: #cccccc;
+        }
+      }
+    }
+    .list-content-over {
+      background: #F4F4F4;
+    }
+  }
+    .buttom {
+      height: 88px;
+      width: 100%;
+      font-size: 30px;
+      background: #2b85e4;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 54px 0 24px 0;
+      color: #ffffff;
+    }
+    .cor {
+      background: #0081dc;
+    }
+    .gray {
+      background: #cccccc;
+    }
+  }
+.action {
+  padding-top: 88px;
+}

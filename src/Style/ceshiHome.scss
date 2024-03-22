@@ -1,0 +1,132 @@
+.ceshiHome {
+  width: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  .top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: #fff;
+    display: flex;
+    .week {
+      width: 33%;
+      line-height: 100px;
+      text-align: center;
+      font-size: 30px;
+      color: black;
+    }
+  }
+  .content {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    .left {
+      position: absolute;
+      width: 100px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      background: #9e9e9e33;
+      .day {
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        color: #9e9e9ee8;
+        line-height: 100px;
+        text-align: center;
+      }
+      .actionday {
+        background: #ffffff;
+      }
+    }
+    .right {
+      position: absolute;
+      top: 0px;
+      left: 100px;
+      right: 0px;
+      bottom: 0px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      .classification {
+        position: fixed;
+        left: 100px;
+        right: 0px;
+        height: 100px;
+        display: flex;
+        .meal {
+          width: 33%;
+          line-height: 100px;
+          font-size: 30px;
+          color: #9e9e9ee8;
+          text-align: center;
+        }
+      }
+      .food_content {
+        position: fixed;
+        top: 200px;
+        bottom: 0px;
+        overflow: scroll;
+        left: 100px;
+        right: 0px;
+        .icon_food {
+          height: 180px;
+          width: 100%;
+          margin-left: 20px;
+          margin-bottom: 10px;
+          border-bottom: 1px solid #cccccc;
+          display: flex;
+          .icon {
+            height: 180px;
+            width: 180px;
+            img {
+              height: 140px;
+              width: 140px;
+              margin: 20px 20px 20px 20px;
+            }
+          }
+          .food {
+            height: 160px;
+            width: 200px;
+            margin-top: 20px;
+            .food_name {
+              font-size: 28px;
+              color: black;
+              text-align: left;
+            }
+            .food_number {
+              margin-top: 10px;
+              font-size: 28px;
+              color: black;
+              text-align: left;
+              margin-bottom: 10px;
+            }
+            .food_price {
+              font-size: 28px;
+              color: #ff0000d4;
+              text-align: left;
+            }
+          }
+          .confirm {
+            height: 50px;
+            width: 100px;
+            margin-left: 100px;
+            margin-top: 48px;
+            background: red;
+            border-radius: 30px;
+            font-size: 30px;
+            color: #ffffff;
+            line-height: 50px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

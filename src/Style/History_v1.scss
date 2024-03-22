@@ -1,0 +1,121 @@
+.history{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 88px 0 20px 0;
+  overflow: scroll;
+  background: #f2f2f2;
+  .list {
+    background: #ffffff;
+    margin: 0 20px;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    .list-icon{
+      width: 18px;
+      margin: 0 20px;
+      display: flex;
+      img{
+        margin-top: 10px;
+        height: 18px;
+        width: 18px;
+      }
+    }
+    .list-content{
+      flex: 1;
+      .cancel-list {
+        padding-right: 20px;
+        .cancel-list-li {
+          .time-price{
+            display: flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            .time {
+              width: 300px;
+              flex: 0 0 300px;
+              font-size: 32px;
+              color: #666666;
+            }
+            .price {
+              flex: 1;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              .price-icon {
+                width: 22px;
+                margin-right: 20px;
+                flex: 0 0 42px;
+                display: flex;
+                align-items: center;
+                img{
+                  width: 22px;
+                  height: 22px;
+                }
+              }
+              .money {
+                font-size: 30px;
+                color: coral;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+              }
+            }
+          }
+          .icon-title {
+            padding-top: 20px;
+            display: flex;
+            // align-content: center;
+            align-items: center;
+            .icon{
+              width: 40px;
+              margin-right: 20px;
+              flex: 0 0 60px;
+              display: flex;
+              // align-content: center;
+              align-items: center;
+              img{
+                width: 30px;
+                height: 30px;
+              }
+            }
+            .title {
+              flex: 1;
+              display: flex;
+              // display: -webkit-box;
+              // display: -ms-flexbox;
+              align-items: center;
+              // -webkit-box-align: center;
+              // -ms-flex-align: center;
+              justify-content: flex-start;
+              // -webkit-box-pack: flex-start;
+              // -ms-flex-pack: flex-start;
+              font-size: 30px;
+              color: #666666;
+            }
+          }
+        }
+      }
+    }
+  }
+  .net-data {
+    width: 750px;
+    padding: 40px 0;
+    display: flex;
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    align-items: center;
+    // -webkit-box-align: center;
+    // -ms-flex-align: center;
+    justify-content: center;
+    // -webkit-box-pack: center;
+    // -ms-flex-pack: center;
+    font-size: 30px;
+    color: #cccccccc;
+  }
+}

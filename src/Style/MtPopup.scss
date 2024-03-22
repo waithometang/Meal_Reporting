@@ -1,0 +1,251 @@
+[v-cloak] {
+  display: none !important;
+}
+.MtPopup {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  left: 0px;
+  right: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  .spinner {
+    width: 100%;
+    position: fixed;
+    bottom: 500px;
+    left: -35px;
+    height: 45px;
+    background: #ffffff;
+  }
+  .content {
+    width: 100%;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: #ffffff;
+    .cephalosome {
+      height: 73px;
+      width: 702px;
+      margin: 0 24px;
+      border-bottom: 1px solid #cccccccc;
+      display: flex;
+      .icon-nmae {
+        height: 73px;
+        width: 80%;
+        float: left;
+        font-size: 30px;
+        color: rgba(68, 68, 68, 1);
+        line-height: 73px;
+        display: flex;
+        .icon {
+          float: left;
+          height: 73px;
+          width: 74px;
+          img {
+            height: 34px;
+            width: 58px;
+            margin: 20px 13px 19px 3px;
+          }
+        }
+        .remark{
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .price {
+        width: 20%;
+        text-align: right;
+        font-size: 20px;
+        color: rgba(68, 68, 68, 1);
+        line-height: 100px;
+        span {
+          font-size: 32px;
+        }
+      }
+    }
+    .tishi {
+      height: 60px;
+      width: 706px;
+      margin: 0 24px;
+      font-size: 26px;
+      text-align: left;
+      line-height: 60px;
+      color: rgba(68, 68, 68, 1);
+    }
+    .fromName {
+      padding: 20px;
+      font-size: 28px;
+      color: rgba(68, 68, 68, 1);
+      text-align: center;
+      background: #f2f2f2;
+    }
+    .menu {
+      position: relative;
+      .select-type {
+        background: #ffffff;
+        .type {
+          height: 24px;
+          margin-top: 26px;
+          display: flex;
+          .icon {
+            height: 24px;
+            width: 8px;
+            margin: 0 24px 0 11px;
+            background: rgba(132, 192, 254, 1);
+            border-radius: 2px;
+          }
+          .name {
+            width: 100%;
+            text-align: left;
+            line-height: 24px;
+            font-size: 28px;
+            color: #444444;
+            span {
+              font-size: 24px;
+            }
+          }
+        }
+        .select {
+          min-height: 60px;
+          width: 100%;
+          margin-top: 26px;
+          display: flex;
+          padding-bottom: 20px;
+          .second {
+            width: 320px;
+            margin-left: 24px;
+            margin-right: 24px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 60px;
+            background: #f2f2f2;
+            color: #444444;
+            border: 1px solid #cccccccc;
+            border-radius: 4px;
+          }
+       .first {
+            background: #66cc66;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .buttons {
+      height: 88px;
+      // margin-top: 37px;
+      display: flex;
+      .cancel {
+        float: left;
+        width: 50%;
+        height: 88px;
+        background: #efefef;
+        font-size: 24px;
+        text-align: center;
+        line-height: 88px;
+        color: #666666;
+      }
+      .cancel-share{
+        width: 100% !important;
+      }
+      .affirm {
+        width: 50%;
+        height: 88px;
+        background: #3399ff;
+        font-size: 24px;
+        text-align: center;
+        line-height: 88px;
+        color: #fffefe;
+      }
+    }
+    .blank {
+      height: auto;
+      width: 100%;
+      padding: 25px 0;
+      background: #3399ff;
+      font-size: 30px;
+      text-align: center;
+      color: #fffefe;
+    }
+  }
+  .my_popup {
+    position: fixed;
+    z-index: 2333;
+    background: #ffffff;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+    bottom: 10px;
+    width: 730px;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s; /* Firefox 4 */
+    -webkit-transition: all 0.3s; /* Safari 和 Chrome */
+    -o-transition: all 0.3s; /* Opera */
+    // transform: scale(1.05) translateZ(0);
+    -webkit-backface-visibility: hidden; 
+    -webkit-transform-style: preserve-3d;
+    .share_Buttom {
+      width:670px;
+      height:88px;
+      background:rgba(43,133,229,1);
+      border-radius:10px;
+      text-align: center;
+      line-height: 88px;
+      font-size:32px;
+      font-family:MicrosoftYaHei;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+      margin: 20px 20px 0px 30px;
+    }
+  }
+  .hide{
+    // bottom: -350px !important;
+    transform: translateY(450px)
+  }
+  .alert {
+    position: fixed;
+    z-index: 999999999 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba($color: black, $alpha: 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      text-align: center;
+      .img-mian {
+        width: 600px;
+        height: 700px;
+        background: #ffffff;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        img {
+          width: 400px;
+          margin-top: 20px;
+        }
+        p {
+          font-size: 35px;
+          font-weight: 600;
+          color: orange;
+          margin-top: 40px;
+        }
+      }
+      .close {
+        margin-left: auto;
+        display: inline-block;
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+}

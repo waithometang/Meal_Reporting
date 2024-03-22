@@ -1,0 +1,256 @@
+.TakeFood {
+  min-height: 100vh;
+  background: #f2f2f2;
+  .ismboa_main {
+    padding-top: 88px;
+  }
+  .TakeFoodList {
+    padding-top: 176px;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    .main-title {
+      width: 100%;
+      height: 84px;
+      line-height: 84px;
+      font-size: 24px;
+      img {
+        width: 24px;
+        height: 24px;
+        padding-left: 40px;
+        padding-right: 10px;
+      }
+    }
+    .list {
+      width: 702px;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 20px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 10px;
+      .haveContent{
+        display: flex;
+        .content {
+          width: 490px;
+          height: auto;
+          margin: 40px 0 40px 18px;
+          .type {
+            height: auto;
+            width: 100%;
+            display: flex;
+            margin-bottom: 35px;
+            .icon {
+              height: 40px;
+              width: 64px;
+              margin-right: 20px;
+              margin-left: 24px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .meal {
+              height: auto;
+              width: auto;
+              margin-right: 20px;
+              text-align: left;
+              font-size: 34px;
+              font-family: MicrosoftYaHei-Bold;
+              font-weight: bold;
+              color: rgba(68, 68, 68, 1);
+            }
+            .price {
+              height: auto;
+              width: auto;
+              text-align: left;
+              font-size: 32px;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(68, 68, 68, 1);
+            }
+          }
+          .name {
+            height: auto;
+            display: flex;
+            margin-left: 24px;
+            .name_icons {
+              height: 30px;
+              width: 30px;
+              margin-right: 35px;
+              img {
+                width: 100%;
+                height: 100%;
+                display: flex;
+              }
+            }
+            .text {
+              width: 411px;
+              height: auto;
+              text-align: left;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-size: 28px;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(68, 68, 68, 1);
+            }
+          }
+          .time {
+            height: auto;
+            display: flex;
+            margin-top: 32px;
+            margin-left: 24px;
+            .time_icon {
+              height: 30px;
+              width: 30px;
+              margin-right: 35px;
+              margin-top: 4px;
+              img {
+                width: 100%;
+                height: 100%;
+                display: flex;
+              }
+            }
+            .time_text {
+              width: 411px;
+              height: auto;
+              text-align: left;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-size: 28px;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(153, 153, 153, 1);
+            }
+          }
+        }
+        .buttom {
+          width: 160px;
+          margin: 40px 0;
+          margin-left: 10px;
+          margin-right: 24px;
+          .yes {
+            width: 160px;
+            height: 54px;
+            background: rgba(255, 102, 102, 1);
+            border-radius: 27px;
+            font-size: 28px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            // line-height: 54px;
+            span{
+              display: inline-block;
+              height: auto;
+              padding: 8px 0;
+            }
+          }
+          .share {
+            background: rgba(51,204,51,1);
+            margin-top: 55px;
+          }
+          .take {
+            margin: 58px 0;
+          }
+          .none {
+            width:116px;
+            height:115px;
+            margin-left: 44px;
+            margin-top: 25px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+    .notData {
+      height: 100px;
+      width: 100%;
+      font-size: 30px;
+      text-align: center;
+      line-height: 100px;
+      color: #cccccccc;
+    }
+    .my_popup {
+      position: fixed;
+      z-index: 2333;
+      background: #ffffff;
+      margin: 0px 10px 0px 10px;
+      border-radius: 10px;
+      bottom: 100px;
+      width: 730px;
+      transition: all 0.3s;
+      -moz-transition: all 0.3s; /* Firefox 4 */
+      -webkit-transition: all 0.3s; /* Safari 和 Chrome */
+      -o-transition: all 0.3s; /* Opera */
+      // transform: scale(1.05) translateZ(0);
+      -webkit-backface-visibility: hidden; 
+      -webkit-transform-style: preserve-3d;
+      .share_Buttom {
+        width:670px;
+        height:88px;
+        background:rgba(43,133,229,1);
+        border-radius:10px;
+        text-align: center;
+        line-height: 88px;
+        font-size:32px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        margin: 20px 20px 0px 30px;
+      }
+    }
+    .hide{
+      transform: translateY(450px)
+    }
+  .alert {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba($color: black, $alpha: 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      text-align: center;
+      .img-mian {
+        width: 600px;
+        height: 700px;
+        background: #ffffff;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        img {
+          width: 400px;
+          margin-top: 20px;
+        }
+        p {
+          font-size: 35px;
+          font-weight: 600;
+          color: orange;
+          margin-top: 40px;
+        }
+      }
+      .close {
+        margin-left: auto;
+        display: inline-block;
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+}
+}

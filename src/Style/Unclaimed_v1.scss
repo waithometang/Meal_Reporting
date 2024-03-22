@@ -1,0 +1,213 @@
+.Unclaimed {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow-x: hidden;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  .GMBC_backtrackTitle {
+    display: flex;
+    background: #2b85e4;
+    .GMBC_backtrack {
+      height: 88px;
+      width: 64px;
+      img {
+        height: 35px;
+        width: 20px;
+        margin: 27px 24px;
+      }
+    }
+    .GMBC_title {
+      top: 0px;
+      width: 686px;
+      font-size: 36px;
+      line-height: 89px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .top {
+    height: 250px;
+    width: 750px;
+    background: #2b85e4;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .pages {
+    .tag {
+      margin: 0 20px;
+      height: 80px;
+      display: flex;
+      .tag_name {
+        width: 33%;
+        font-size: 30px;
+        span {
+          display: inline-block;
+          height: auto;
+          width: 100%;
+          text-align: center;
+          padding: 20px 0;
+        }
+      }
+      .action_tag_name {
+        border-bottom: 2px solid #2b85e4;
+      }
+    }
+    .content_list {
+      position: absolute;
+      top: 420px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow-y: scroll;
+      background: #cccccc6b;
+      .list {
+        margin: 20px;
+        height: auto;
+        display: flex;
+        background: #ffffff;
+        border-radius: 10px;
+        -webkit-transform: translateZ(0);
+        -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+        .list_icon {
+          height: auto;
+          width: 8px;
+          background: #2b85e4;
+          margin: 20px;
+        }
+        .list_content {
+          width: 482px;
+          margin: 20px 0;
+          .name {
+            height: 60px;
+            display: flex;
+            .images {
+              height: 35px;
+              width: 35px;
+              margin: auto 0;
+              margin-right: 10px;
+              img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .title {
+              height: 35px;
+              width: 437px;
+              font-size: 30px;
+              display: flex;
+              align-items: center;
+              overflow: hidden;
+              margin: auto 0;
+            }
+          }
+          .content {
+            min-height: 40px;
+            display: flex;
+            .images {
+              height: 35px;
+              width: 35px;
+              margin-top: 10px;
+              margin-right: 10px;
+              img{
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .titl {
+              min-height:35px; 
+              margin-top: 10px;
+              width: 437px;
+              font-size: 30px;
+              text-align: left;
+              align-items: center;
+            }
+          }
+        }
+        .list_but {
+          width: 180px;
+          margin: auto;
+          height: 60px;
+          .but{
+            background: #2b85e4;
+            color: #ffffff;
+            border-radius: 40px;
+            font-size: 30px;
+            width: 140px;
+            height: 60px;
+            margin: 0 20px;
+            span{
+              display: inline-block;
+              width: 100%;
+              height: auto;
+              text-align: center;
+              padding: 10px 0;
+            }
+          }
+        }
+      }
+    }
+    .xleft-enter-active,
+    .fade-leave-active {
+      transition: all 1s;
+    }
+    .xleft-enter, .fade-leave-to {
+      margin-left: 750px;
+    }
+    .xright-enter-active,
+    .fade-leave-active {
+      transition: all 1s;
+    }
+    .xright-enter, .fade-leave-to {
+      margin-left: -750px;
+    }
+  }
+  .alert {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba($color: black, $alpha: 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      text-align: center;
+      .img-mian {
+        width: 600px;
+        height: 700px;
+        background: #ffffff;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        img {
+          width: 400px;
+          margin-top: 20px;
+        }
+        p {
+          font-size: 35px;
+          font-weight: 600;
+          color: orange;
+          margin-top: 40px;
+        }
+      }
+      .close {
+        margin-left: auto;
+        display: inline-block;
+        img {
+          width: 50px;
+        }
+      }
+    }
+    .fade-enter-active,
+    .fade-leave-active {
+      transition: opacity 0.5s;
+    }
+    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+      opacity: 0;
+    }
+  }
+}
